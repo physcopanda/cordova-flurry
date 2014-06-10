@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"FlurryPlugin\"><param name=\"android-package\" value=\"co.themobilefirm.FlurryPlugin.Flurry\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "co.themobilefirm.FlurryPlugin": {
+            "PACKAGE_NAME": "com.coolappz.TrackingTest"
+        }
+    },
+    "dependent_plugins": {}
+}
